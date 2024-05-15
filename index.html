@@ -13,13 +13,23 @@
             margin: 0;
             background-color: white; /* Set to white to match image background */
         }
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
         img {
             max-width: 100%;
+            max-height: 100%;
             height: auto;
         }
     </style>
 </head>
 <body>
-    <img src="immortalis.jpg" alt="Coming Soon">
+    <div class="wrapper">
+        <img src="immortalis.jpg" alt="Coming Soon">
+    </div>
 </body>
 </html>
